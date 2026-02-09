@@ -1,9 +1,12 @@
+import NavBar from "./components/NavBar/NavBar"
+import './global.scss'
 
 
-function App () {
+function App() {
   return (
     <>
-      <h1>SOU O APP</h1>
+      <NavBar />
+     
     </>
   )
 }

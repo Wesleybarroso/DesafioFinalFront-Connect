@@ -1,0 +1,30 @@
+.containerQuemSomos {
+    height: 85vh;
+    background-image: url('../../assets/BackgroundQuemSomos.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.boxTextoQuemSomos {
+    // border: solid red 5px;
+    width: 42%;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    h2 {
+        color: #205691;
+        font-size: 2.5rem;
+        width: 70%;
+    }
+
+    p {
+        font-size: 1.5rem;
+        width: 85%;
+    }
+}
